@@ -1,6 +1,9 @@
 <div class="navbar">
     <h2>Budget Tracking</h2>
 </div>
+<br>
+<br>
+<br><br> <br>
 
 <div class="login-container">
     
@@ -18,6 +21,7 @@
             <span class="highlighted">Register</span>
         </p>
     </form>
+    
 
     <!-- Register Form -->
     <form *ngIf="activeForm === 'register'" [formGroup]="registerForm" (ngSubmit)="register()">
